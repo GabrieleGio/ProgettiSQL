@@ -145,6 +145,9 @@ AND Progetto.id = a2.progetto
 AND Progetto.nome = 'Pegasus'
 AND a1.id <> a2.id;
 
+--Query 4
+SELECT DISTINCT Persona.nome, Persona.cognome 
+
 
 
 
